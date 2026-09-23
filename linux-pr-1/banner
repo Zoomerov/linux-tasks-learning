@@ -1,0 +1,24 @@
+#!/bin/bash
+
+text="$1"
+
+len=${#text}
+border=$((len + 2))
+
+echo -n "+"
+
+for i in $(seq 1 $border)
+do
+	echo -n "-"
+done
+
+echo "+"
+echo "| $text |"
+echo -n "+"
+
+for i in $(seq 1 $border)
+do
+	echo -n "-"
+done
+
+echo "+"
