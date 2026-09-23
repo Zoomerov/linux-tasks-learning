@@ -20,6 +20,3 @@ cat node_modules/express/package.json
 git clone https://github.com/expressjs/express.git
 ```
 
-# Задача 3
-
-
