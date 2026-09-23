@@ -1,0 +1,32 @@
+digraph express {
+  rankdir=LR;
+  node [shape=box];
+  "express" -> "accepts";
+  "express" -> "body-parser";
+  "express" -> "content-disposition";
+  "express" -> "content-type";
+  "express" -> "cookie";
+  "express" -> "cookie-signature";
+  "express" -> "debug";
+  "express" -> "depd";
+  "express" -> "encodeurl";
+  "express" -> "escape-html";
+  "express" -> "etag";
+  "express" -> "finalhandler";
+  "express" -> "fresh";
+  "express" -> "http-errors";
+  "express" -> "merge-descriptors";
+  "express" -> "mime-types";
+  "express" -> "on-finished";
+  "express" -> "once";
+  "express" -> "parseurl";
+  "express" -> "proxy-addr";
+  "express" -> "qs";
+  "express" -> "range-parser";
+  "express" -> "router";
+  "express" -> "send";
+  "express" -> "serve-static";
+  "express" -> "statuses";
+  "express" -> "type-is";
+  "express" -> "vary";
+}

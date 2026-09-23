@@ -1,0 +1,17 @@
+digraph matplotlib {
+  rankdir=LR;
+  node [shape=box];
+  "matplotlib" -> "contourpy";
+  "matplotlib" -> "cycler";
+  "matplotlib" -> "fonttools";
+  "matplotlib" -> "kiwisolver";
+  "matplotlib" -> "numpy";
+  "matplotlib" -> "packaging";
+  "matplotlib" -> "pillow";
+  "matplotlib" -> "pyparsing";
+  "matplotlib" -> "python-dateutil";
+  "matplotlib" -> "meson-python";
+  "matplotlib" -> "pybind11";
+  "matplotlib" -> "setuptools_scm";
+  "matplotlib" -> "setuptools";
+}
