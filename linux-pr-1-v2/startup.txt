@@ -1,0 +1,15 @@
+# Показать имя VFS и SHA-256
+vfs-info
+
+# Посмотреть корневой каталог и прочитать файл
+ls
+cat /readme.txt
+
+# Перейти во вложенный каталог и прочитать файл
+cd /home/student
+ls
+cat notes.txt
+
+# Примеры ошибок
+cd /missing
+unknown-command

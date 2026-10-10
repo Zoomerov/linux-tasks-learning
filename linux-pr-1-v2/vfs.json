@@ -1,0 +1,26 @@
+{
+  "name": "Учебная VFS",
+  "root": {
+    "type": "directory",
+    "children": {
+      "readme.txt": {
+        "type": "file",
+        "data": "0J/RgNC40LLQtdGCINC40LcgVkZT"
+      },
+      "home": {
+        "type": "directory",
+        "children": {
+          "student": {
+            "type": "directory",
+            "children": {
+              "notes.txt": {
+                "type": "file",
+                "data": "0K3RgtC+INGC0LXQutGB0YLQvtCy0YvQuSDRhNCw0LnQuw=="
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
